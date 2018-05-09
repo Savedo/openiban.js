@@ -4,8 +4,8 @@ const https = require('https');
 
 export function get(url: string): Promise<OpenibanResponse> {
   const options = {
-    host: 'openiban.com',
     port: 443,
+    host: 'openiban.com',
     path: url,
     method: 'get',
     headers: { 'Accept': '*/*' }
