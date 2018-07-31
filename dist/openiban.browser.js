@@ -109,7 +109,7 @@ function get(url) {
                 reject(new Error(oReq.response));
             }
         });
-        oReq.open('GET', 'https://openiban.com' + url);
+        oReq.open('GET', 'https://openiban.savedo.com' + url);
         oReq.send();
     });
 }
