@@ -12,7 +12,7 @@ export function get(url: string): Promise<OpenibanResponse> {
       }
     });
 
-    oReq.open('GET', 'https://openiban.com' + url);
+    oReq.open('GET', 'https://openiban.savedo.com' + url);
     oReq.send();
   });
 }
