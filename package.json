@@ -1,6 +1,6 @@
 {
   "name": "openiban",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "openiban.com client for node and the browser",
   "main": "./dist/openiban.node.js",
   "browser": "./dist/openiban.browser.js",
@@ -39,7 +39,10 @@
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "webpack": "^3.5.6",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "@types/bluebird": "^3.5.24"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bluebird": "^3.5.3"
+  }
 }

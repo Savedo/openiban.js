@@ -1,3 +1,4 @@
+import * as Promise from 'bluebird';
 import { ValidationResult } from './types';
 import { get } from 'openiban_http';
 

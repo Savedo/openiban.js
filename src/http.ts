@@ -1,3 +1,4 @@
+import * as Promise from 'bluebird';
 import { OpenibanResponse } from './types';
 
 const https = require('https');
