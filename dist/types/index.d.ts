@@ -1,3 +1,4 @@
+import * as Promise from 'bluebird';
 import { ValidationResult } from './types';
 export interface OpenibanOptions {
     getBIC?: boolean;
