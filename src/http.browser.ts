@@ -1,3 +1,4 @@
+import * as Promise from 'bluebird';
 import { OpenibanResponse } from './types';
 
 export function get(url: string): Promise<OpenibanResponse> {
