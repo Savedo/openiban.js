@@ -43,7 +43,7 @@ var clientConfig = {
   },
   output: {
     library: 'Openiban',
-    libraryTarget: 'window'
+    libraryTarget: 'umd'
   },
   resolve: {
     alias: {
