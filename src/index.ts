@@ -26,3 +26,4 @@ export function validate(iban: string, opts: OpenibanOptions = defaultOptions): 
     });
 }
 
+export { ValidationResult };
