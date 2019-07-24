@@ -5,3 +5,4 @@ export interface OpenibanOptions {
     validateBankCode?: boolean;
 }
 export declare function validate(iban: string, opts?: OpenibanOptions): Promise<ValidationResult>;
+export { ValidationResult };
